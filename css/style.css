@@ -1,0 +1,164 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC); 
+}
+
+.nav-bar {
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC); 
+    position: fixed;
+    z-index: 2;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+h1, h5 {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.spacer {
+    width: 100%;
+    height: 60px;
+}
+
+.yes-button {
+    background: none;
+    border: 2px solid #4568DC; 
+    color: #4568DC;
+    display: inline-block;
+    width: 20%;
+}
+
+.yes-button:hover {
+    background: #4568DC;
+    border: 2px solid #4568DC; 
+    color: white;
+    display: inline-block;
+}
+
+.no-button {
+    background: none;
+    border: 2px solid #B06AB3;
+    color: #B06AB3;
+    display: inline-block;
+    width: 20%;
+}
+
+.no-button:hover {
+    background: #B06AB3;
+    border: 2px solid #B06AB3;
+    color: white;
+    display: inline-block;
+}
+
+.user-image {
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.user-image-card {
+    width: 80%;
+}
+
+.file-select {
+    display: none;
+}
+
+#chooseFileLabel {
+    background: none;
+    color: white;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: .25rem;
+    margin: 20px 0 0 0;
+    transition: all 300ms;
+}
+
+#submitButton {
+    display: none;
+}
+
+#retailer {
+    display: none;
+}
+
+#chooseFileLabel:hover {
+    background: white;
+    color: #4568DC;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: .25rem;
+    margin: 20px 0 0 0;
+}
+
+.submit-highlight {
+    background: white!important;
+    color: #4568DC!important;
+    border: 2px solid white!important;
+    display: inline-block!important;
+    padding: 6px 12px!important;
+    border-radius: .25rem!important;
+    margin-top: 10px!important;
+}
+
+.show-retailer {
+    display: block!important;
+    margin-top: 10px!important;
+}
+
+footer {
+    height: 50px;
+}
+.yesResults {
+    font-family: 'Lobster Two', cursive;
+}
+
+.noResults {
+    font-family: 'Lobster Two', cursive;
+}
+
+.retailResults {
+    font-family: 'Sedgwick Ave', cursive;
+    letter-spacing: 1px;
+}
+
+
+
+/* iPhone X */
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .spacer {
+
+        height: 130px;
+    }
+    #chooseFileLabel {
+        background: none;
+        color: white;
+        border: 2px solid white;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        border-radius: .25rem;
+        margin: 10px 0;
+        transition: all 300ms;
+}
+
+}
